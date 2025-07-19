@@ -112,3 +112,73 @@ li .search-icon:hover{
     margin: 0 auto;
     margin-top: 4rem;
 }
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<--------======responsive=====-------->>>>>>>> */
+
+@media (max-width: 576px) {
+    /* header */
+
+    .header{
+        padding: 20px;
+    }
+
+    .navbar,
+    .hero-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .nav-menu{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .hero-section{
+        background-position: top center;
+        background-size: 100%;
+    }
+
+    .hero-title{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .hero-description{
+        text-align: center;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section img{
+        max-width: 100%;
+    }
+
+
+    .logo-box{
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
+
+
+    /* end of header */
+}
