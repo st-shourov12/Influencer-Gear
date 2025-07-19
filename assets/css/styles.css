@@ -19,6 +19,7 @@ a{
 
 /*<<<<< -----=====shared style=====----- >>>>>>*/
 
+
 .flex-column{
     display: flex;
     flex-direction: column;
@@ -37,15 +38,29 @@ a{
 
 }
 
+.btn-primary-rounded{
+    color: white;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 41px;
+    border: none;
+}
+
 
 
 /* <<<<<-----=====Header=====----->>>>> */
 
-header{
+.header{
     max-width: 1440px;
     padding: 90px 120px;
+    margin: 0 auto;
 }
 
+.navbar{
+    align-items: center;
+}
 .nav-logo{
     font-size: 1.5rem;
     font-weight: 700;
@@ -61,4 +76,39 @@ ul li{
 
 .nav-menu{
     gap: 2rem;
+}
+
+li .search-icon:hover{
+    background-color: blue;
+}
+
+/* hero section */
+
+.hero-section{
+    margin-top: 50px;
+    align-items: center;
+    gap: 8rem;
+    background: url('../images/circle-bg.png') right center no-repeat;
+    background-size: auto;
+    gap: 130px;
+}
+
+.hero-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+
+.hero-description{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.logo-box{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 4rem;
 }
